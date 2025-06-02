@@ -1,0 +1,30 @@
+# Instructions for pushing to GitHub and setting up GitHub Pages
+
+## Step 1: Create a new repository on GitHub
+1. Go to https://github.com/new
+2. Name your repository (e.g., "shopeasy-ecommerce")
+3. Make it public
+4. Do NOT initialize with README, .gitignore, or license
+5. Click "Create repository"
+
+## Step 2: Push your code to GitHub
+Run these commands in your terminal (replace YOUR_USERNAME with your GitHub username and REPO_NAME with your repository name):
+
+```
+git remote add origin https://github.com/YOUR_USERNAME/REPO_NAME.git
+git branch -M main
+git push -u origin main
+```
+
+## Step 3: Set up GitHub Pages
+1. Go to your repository on GitHub
+2. Click on "Settings"
+3. Scroll down to "GitHub Pages" section
+4. Under "Source", select "main" branch
+5. Click "Save"
+6. Wait a few minutes for your site to be published
+7. Your site will be available at: https://YOUR_USERNAME.github.io/REPO_NAME/
+
+## Step 4: Verify your site is live
+- Visit the URL provided in the GitHub Pages section
+- If everything is set up correctly, you should see your ShopEasy e-commerce website online! 
